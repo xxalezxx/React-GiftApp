@@ -1,19 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`GifGridItem.js - Test Should show the correct component 1`] = `
-<div
-  className="animate__animated animate__bounce animate__delay-2s"
->
-  <img
-    alt="something"
-    src="https://localhost.com"
-  />
-  <p>
-    something
-  </p>
-</div>
-`;
-
 exports[`GifGridItem.js - Test Should show the correct component with all the corrects values 1`] = `
 <div
   className="animate__animated animate__bounce animate__delay-2s"
