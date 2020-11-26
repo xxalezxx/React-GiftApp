@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing of GifGrid.js Should match with the snapshot 1`] = `
+<Fragment>
+  <h3>
+    batman
+  </h3>
+  <p>
+    Loading
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Testing of GifGrid.js Should show items when it loads images 1`] = `
+<Fragment>
+  <h3>
+    batman
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="abc"
+      key="abc"
+      title="nada"
+      url="asdasdasdasdadassd"
+    />
+    <GifGridItem
+      id="123"
+      key="123"
+      title="nada"
+      url="asdasdasdasdadassd"
+    />
+  </div>
+</Fragment>
+`;
